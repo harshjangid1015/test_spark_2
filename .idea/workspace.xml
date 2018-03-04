@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="60ddf63f-38a7-40af-bd67-088c65e91fe4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/test_spark_2$sources/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/test_spark_2$sources/0.1/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/test_spark_2$sources/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/test_spark_2$sources/0.1/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-test_spark_2$sources-test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -479,6 +465,14 @@
       <option name="presentableId" value="Default" />
       <updated>1519948401684</updated>
     </task>
+    <task id="LOCAL-00001" summary="Popular movies data analyzed using DataSets">
+      <created>1520126400568</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1520126400569</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -519,6 +513,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Popular movies data analyzed using DataSets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Popular movies data analyzed using DataSets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
