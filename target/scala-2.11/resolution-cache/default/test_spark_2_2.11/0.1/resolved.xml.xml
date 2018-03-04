@@ -4,7 +4,7 @@
 		module="test_spark_2_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20180301232245"
+		publication="20180303185217"
 	>
 		<description>
 		test_spark_2
