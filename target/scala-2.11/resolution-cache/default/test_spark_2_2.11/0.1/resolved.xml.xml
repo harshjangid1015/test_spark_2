@@ -4,7 +4,7 @@
 		module="test_spark_2_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20180304113921"
+		publication="20180304154457"
 	>
 		<description>
 		test_spark_2
@@ -35,5 +35,7 @@
 		<dependency org="org.apache.spark" name="spark-core_2.11" rev="2.2.1" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.2.1" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-mllib_2.11" rev="2.2.1" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-streaming_2.11" rev="1.5.2" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-streaming-twitter_2.11" rev="1.5.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -1,4 +1,4 @@
-package com.sundogsoftware.spark
+package spark_learning
 
 import org.apache.spark._
 import org.apache.spark.SparkContext._

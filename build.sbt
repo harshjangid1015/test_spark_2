@@ -1,12 +1,15 @@
- name := "test_spark_2"
+name := "test_spark_2"
 
 version := "0.1"
 
 scalaVersion := "2.11.12"
 
- libraryDependencies ++= Seq(
-   "org.apache.spark" %% "spark-core" % "2.2.1",
-   "org.apache.spark" %% "spark-sql" % "2.2.1",
-   "org.apache.spark" %% "spark-mllib" % "2.2.1"
- )
- 
+val sparkVersion = "2.2.1"
+
+libraryDependencies ++= Seq(
+  "org.apache.spark" %% "spark-core" % sparkVersion,
+  "org.apache.spark" %% "spark-sql" % sparkVersion,
+  "org.apache.spark" %% "spark-mllib" % sparkVersion,
+  "org.apache.spark" %% "spark-streaming" % "1.5.2",
+  "org.apache.spark" % "spark-streaming-twitter_2.11" % "1.5.2"
+)
