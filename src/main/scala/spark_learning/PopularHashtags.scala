@@ -1,10 +1,10 @@
 package spark_learning
 
-import org.apache.spark._
-import org.apache.spark.SparkContext._
+//import org.apache.spark
+//import org.apache.spark.SparkContext._
 import org.apache.spark.streaming._
 import org.apache.spark.streaming.twitter._
-import org.apache.spark.streaming.StreamingContext._
+//import org.apache.spark.streaming.StreamingContext._
 
 /** Listens to a stream of Tweets and keeps track of the most popular
  *  hashtags over a 5 minute window.
@@ -13,9 +13,9 @@ object PopularHashtags {
   
     /** Makes sure only ERROR messages get logged to avoid log spam. */
   def setupLogging() = {
-    import org.apache.log4j.{Level, Logger}   
+    import org.apache.log4j.{Level, Logger}
     val rootLogger = Logger.getRootLogger()
-    rootLogger.setLevel(Level.ERROR)   
+    rootLogger.setLevel(Level.OFF)
   }
   
   /** Configures Twitter service credentials using twiter.txt in the main workspace directory */
